@@ -11,3 +11,10 @@ reformatted my windows gaming pc and shenanigans happened
   - and don't forget the custom port using `-P`
 - install keeagent
 - you win
+
+post mortem:
+
+- keeagent doesn't work so seamlessly with openssh, so use putty instead
+- if the message `The server's host key is not cached in the registry.` appears during a `git` command, abort immediatly and use `plink.exe` instead. all errors messages stemming from that are meaningless
+- ssh ports matter
+- i need coffee
